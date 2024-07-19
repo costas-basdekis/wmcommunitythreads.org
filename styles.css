@@ -1,0 +1,35 @@
+body {
+    background-image: url(strawberry-thief-velvet-fabric.gif);
+    background-size: cover;
+}
+
+#main {
+    font-family: Georgia, serif;
+    flex: 1;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 10px;
+    /*color: darkblue;*/
+    color: snow;
+    /*background-color: rgb(15 0 248 / 35%);*/
+    /*background-color: rgba(255, 255, 255, .8);*/
+    background-color: rgba(64, 64, 64, .8);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+#logo {
+    max-width: 300px;
+    vertical-align: middle;
+}
+
+a {
+    color: aquamarine;
+}
+
+a:visited {
+    color: hotpink;
+}
